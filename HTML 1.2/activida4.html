@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="DC.language" scheme="RFC1766" content="es">
+    <meta name="author" content="Jose-Manuel">
+    <meta name="description" content="actividad 3">
+    <title>
+    Mapa de Imagen
+    </title>
+</head>
+
+<body style="text-align: center; background-color: #f0f0f0;">
+
+  <h1>Mapa de imagen dividido en cuatro zonas</h1>
+
+  <!-- Imagen con mapa -->
+  <img src="img/cuadrado.png" usemap="#mapaZonas" alt="Cuadro de colores" width="400" height="400">
+
+  <!-- Mapa de imagen -->
+  <map name="mapaZonas">
+    <!-- Zona superior izquierda -->
+    <area shape="rect" coords="0,0,200,200" href="https://www.google.com" alt="Zona 1">
+
+    <!-- Zona superior derecha -->
+    <area shape="rect" coords="200,0,400,200" href="https://www.wikipedia.org" alt="Zona 2">
+
+    <!-- Zona inferior izquierda -->
+    <area shape="rect" coords="0,200,200,400" href="https://www.youtube.com" alt="Zona 3">
+
+    <!-- Zona inferior derecha -->
+    <area shape="rect" coords="200,200,400,400" href="https://www.openai.com" alt="Zona 4">
+  </map>
+
+</body>
+</html>

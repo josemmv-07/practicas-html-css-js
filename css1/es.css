@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* css Document */
+h1 {
+    text-align: center;
+    color: red;
+}
+h2 {
+    text-align: center;
+    color: gray;
+}
+
+p {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: green;
+}
+th {
+    background-color: black;
+    color: white;
+    font-family: tahoma;
+    padding: 10px;
+    text-align: center;
+}
+td {
+    font-family: tahoma;
+    text-align: center;
+}
+table {
+    margin: 0 auto;
+
+}
+.especial {
+    margin-right: 80px;
+    margin-left: 80px;
+    color: orange;
+}

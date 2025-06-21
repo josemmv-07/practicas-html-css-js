@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="DC.language" scheme="RFC1766" content="es">
+        <meta name="description" content="utilizando frames">
+        <meta name="author" content="Jose-Manuel">
+        <title>
+            Ejercicio con Frames
+        </title>
+    </head>
+    <frameset rows="200px,*" border="1" framespacing="2" frameborder="yes" noresize>
+        <frameset cols="50%,50%" border="1" framespacing="2" frameborder="yes" noresize>
+            <frame src="frame1.html" name="marco1" noresize scrolling="auto">
+            <frame src="frame2.html" name="marco2" noresize scrolling="auto">
+        </frameset>
+        <frame src="frame3.html" name="marcoInferior" noresize scrolling="yes">
+        <noframes>
+            <body>Tu navegador no soporta frames.</body>
+        </noframes>
+    </frameset>
+</html>
