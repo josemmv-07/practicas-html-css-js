@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* css Document */
+
+h1 {
+    color: blue;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h2::before {
+    color: aquamarine;
+    font-weight: 600;
+    font-size: 100px;
+    font-family: fantasy;
+    text-decoration: double;
+    text-transform: lowercase;
+    text-align: center;
+}
+h3 {
+    color: blueviolet;
+    font-size: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h4, h5, h6 {
+    color: aquamarine;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h4 { font-size: 2em; }
+h5 { font-size: 1.5em; }
+h6 { font-size: 1.2em; }
+p {
+    color: antiquewhite;
+    text-align: center;
+}
+.rojo {
+    color: red;
+    text-align: left;
+}
+body {
+    background-color: thistle;
+}
+p#pr {
+    color: violet;
+    text-align: right;
+    text-transform: capitalize;
+}
+body * {
+    margin: 0;
+    padding: 0;
+}
+p::first-letter{
+    color: aqua;
+}
+p::first-line{
+    color: purple;
+}
