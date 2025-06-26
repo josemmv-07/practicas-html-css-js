@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=divise-width, initial-scale=1.0">
+        <meta name="description" content="anima">
+        <meta name="author" content="Jose-Manuel">
+        <title>
+            Animación css
+        </title>
+    </head>
+<style>
+    
+    @keyframes animar {
+        0% {
+            background-color: blue;
+            border-radius: 0px;
+            margin-top: 20px;
+        }
+        50% {
+            background-color: red;
+            border-radius: 100px;
+            margin-top: 350px;
+        }
+    }
+    
+    @-webkit-keyframes animar {
+        from {
+            background-color: blue;
+            border-radius: 0px;
+            margin-top: 20px;
+        }
+        to {
+            background-color: red;
+            border-radius: 100px;
+            margin-top: 20px;
+        }
+    }
+    div {
+        margin: 20px auto;
+        width: 200px;
+        height: 200px;
+        border: solid 1px black;
+        background-color: blue;
+        animation: animar 5s infinite;
+        -webkit-animation: animar 5s infinite;
+    }
+
+</style>
+<body>
+    <h1>Animación de elementos en CSS3</h1>
+
+    <div></div>
+
+</body>
+</html>
